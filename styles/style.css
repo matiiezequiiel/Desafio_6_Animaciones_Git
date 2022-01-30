@@ -76,11 +76,13 @@ main {
   border-style: outset;
   border-width: 1px;
   font-size: large;
+  
 }
 
 .cabecera__menu__lista li:hover {
   background-color: #da0669;
 }
+
 
 .cabecera__menu__lista li a {
   color: white;
