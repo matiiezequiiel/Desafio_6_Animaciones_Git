@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Heladeria</title>
+  </head>
+  <body id="gridAreas">
+    <header id="inicio">
+      <div class="logo">
+        <img
+          src="./assets/logo_heladeria.png"
+          alt="logo"
+          class="cabecera__logo"
+        />
+        <h1 class="cabecera__titulo">Heladeria</h1>
+      </div>
+
+      <button class="botonMenu">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <nav class="cabecera__menu">
+        <ul class="cabecera__menu__lista">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./pages/productos.html">Productos</a></li>
+          <li><a href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a href="./pages/sucursales.html">Sucursales</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="promos">
+        <div class="tituloMain">
+          <img
+            src="./assets/arrow_right_black_24dp.svg"
+            alt="flecha"
+            class="flechaTitulos"
+          />
+          <h2 class="titulos">Promociones vigentes</h2>
+        </div>
+        <!-- SLIDE -->
+        <div class="slide">
+          <div class="slide-inner">
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-1"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+              checked="checked"
+            />
+            <div class="slide-item">
+              <img
+                src="https://pbs.twimg.com/media/EHfOGNrWoAILobC?format=jpg&name=large"
+              />
+            </div>
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-2"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div class="slide-item">
+              <img
+                src="https://mandorlehelados.com.ar/wp-content/uploads/2021/11/mandorle-helados-promo-2.png"
+              />
+            </div>
+            <input
+              class="slide-open"
+              type="radio"
+              id="slide-3"
+              name="slide"
+              aria-hidden="true"
+              hidden=""
+            />
+            <div class="slide-item">
+              <img src="https://pbs.twimg.com/media/D0hVqsHXgAAg0bt.jpg" />
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+              <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+              </li>
+              <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <!-- FIN SLIDE -->
+      </section>
+
+      <section id="comentarios">
+        <div class="tituloMain">
+          <img
+            src="./assets/arrow_right_black_24dp.svg"
+            alt="flecha"
+            class="flechaTitulos"
+          />
+          <h2 class="titulos">Comentarios de nuestros clientes</h2>
+        </div>
+
+        <div id="comentarioCliente">
+          <article class="articulo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            dolores esse sapiente distinctio asperiores alias ullam quasi at.
+            Reiciendis ullam voluptatum, id magnam et aut voluptatem accusantium
+            neque exercitationem dolore! Officiis vel enim voluptas consequatur.
+            Tempore rem optio quod iure deserunt officia officiis velit mollitia
+            sit eum sapiente, doloremque quisquam rerum repudiandae laborum
+            ducimus pariatur. Deserunt ipsam quas hic saepe? Consequatur libero
+            doloremque, aspernatur odio cum, dolor amet quae iusto deserunt
+            aliquid pariatur voluptate laboriosam modi officiis sed? Voluptates
+            dolorem sunt nam eum culpa modi dolor consectetur perferendis
+            aspernatur sequi? Aspernatur temporibus sequi iste rem aperiam a id
+            dolor vero odio officia? Nostrum, incidunt ullam alias odio cum
+            asperiores excepturi, nobis inventore esse explicabo, dolores ipsum
+            illo debitis sed repudiandae! Saepe sint unde beatae quam molestias
+            quidem tenetur ex architecto, aut atque, eligendi quos modi. Cumque
+            voluptas, nulla hic doloremque esse expedita officiis voluptates
+            pariatur vel nisi, quaerat ratione dolore.
+          </article>
+          <img
+            src="./assets/estrellas_valoracion.png"
+            alt="valoracion"
+            class="img__comentarios"
+          />
+        </div>
+      </section>
+
+      <section id="mapa">
+        <div class="tituloMain">
+          <img
+            src="./assets/arrow_right_black_24dp.svg"
+            alt="flecha"
+            class="flechaTitulos"
+          />
+          <h2 class="titulos">Busca tu sucursal mas cercana</h2>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26269.648014594593!2d-58.38670072479618!3d-34.61159510155877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sheladeria!5e0!3m2!1ses-419!2sar!4v1640531440698!5m2!1ses-419!2sar"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <!-- 
+        <div class="irArriba">
+            <a href="#inicio">Ir arriba</a>
+        </div>  -->
+    </main>
+
+    <footer class="pie">
+      <div class="logo">
+        <img src="./assets/logo_heladeria.png" alt="logo" class="pie__img" />
+        <h1 class="pie__titulo">Heladeria</h1>
+      </div>
+
+      <div class="pie__redes">
+        <img src="./assets/facebook.png" alt="facebook" class="imgRedes" />
+        <img src="./assets/instagram.png" alt="instagram" class="imgRedes" />
+        <img src="./assets/whatsapp.png" alt="wspp" class="imgRedes" />
+      </div>
+
+      <nav class="pie__menu">
+        <ul class="pie__menu__lista">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./pages/productos.html">Productos</a></li>
+          <li><a href="./pages/nosotros.html">Nosotros</a></li>
+          <li><a href="./pages/sucursales.html">Sucursales</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <div class="pie__secundario">
+      <div class="pie__suscripcion">
+        <span>Suscribite a nuestro Newsletter</span>
+        <input type="mail" placeholder="E-MAIL" />
+        <button type="submit">Enviar</button>
+      </div>
+      Pie de pagina - &copy;2021 desarrollado por: Matias Aguirre
+    </div>
+  </body>
+</html>
