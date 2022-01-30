@@ -449,7 +449,7 @@ main {
     position: fixed;
     top: 1rem;
     right: 1rem;
-    background-color: #f2167d;
+    background-color: transparent;
     border: 0;
     color: white;
     cursor: pointer;
